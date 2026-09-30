@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de calificaciones</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Formulario de calificaciones</h1>
+        <form id="gradeForm">
+            <label for="name">Nombre del estudiante:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="grade">Calificación:</label>
+            <input type="number" id="grade" name="grade" min="0" max="100" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="result"></div>
+        <script src="script.js"></script>
+        
+    </body>
+</html>
